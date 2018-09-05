@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Roxo"
+    android:gravity="center"
+    android:padding="16dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jogo da Forca"
+            android:layout_gravity="center"
+            android:textColor="@color/branco"
+            android:textSize="28dp"
+
+            />
+
+        <ImageView
+            android:layout_width="215dp"
+            android:layout_height="230dp"
+            android:src="@drawable/icone"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@color/roxo"
+            android:text="Iniciar"
+            android:textColor="@color/branco"
+            android:layout_marginTop="20dp"
+            android:onClick="inicarJogo"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
